@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   late HealthStats _bloodPressure;
   int _selectedHealthStat = 0; // 0 for heart rate, 1 for blood pressure
   int _selectedTabIndex = 0;
-  List<AppointmentItem> _appointments = [];
+  final List<AppointmentItem> _appointments = [];
   final List<ReminderItem> _reminders = [];
 
   @override
